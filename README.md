@@ -18,6 +18,9 @@ Proje, üç ana arayüzden oluşmaktadır:
 - **ASP.NET MVC5**: Model-View-Controller (Model-Görünüm-Kontrolcü) deseni izlenerek web uygulamasının oluşturulması için kullanıldı.
 - **MsSQL**: Dinamik içeriği depolamak ve yönetmek için kullanılan veritabanı.
 - **LINQ**: Uygulama içinde verileri etkili bir şekilde sorgulamak ve yönetmek için kullanıldı.
+- **Entity Framework**: Veritabanı ile uygulama arasında veri erişim katmanı olarak Entity Framework kullanılmıştır. Database First yaklaşımı ile mevcut veritabanı şeması, model olarak uygulamaya entegre edilmiştir.
+- **Html/Css**: Kullanıcı arayüzü geliştirilmesinde HTML ve CSS kullanılmıştır. Bu teknolojiler, web sayfalarının yapısını ve stilini belirlemek için temel araçlardır.
+- **Bootstrap**:Proje, responsive ve modern bir kullanıcı arayüzü sağlamak için Bootstrap kütüphanesini kullanmaktadır. Bootstrap, mobil uyumlu tasarımlar oluşturmak için kullanılan popüler bir CSS framework'üdür.
   
 
 ## Giriş Ekranı

@@ -1,0 +1,19 @@
+﻿@model MvcCv.Models.Entity.TblSkills
+@{
+    ViewBag.Title = "YeniYetenek";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h4>Yeni Yetenek Ekleme Sayfası</h4>
+<br />
+<form method="post">
+    @Html.Label("Yetenek Açıklaması")
+    @Html.TextBoxFor(x => x.Skills, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yetenek Derecesi")
+    @Html.TextBoxFor(x => x.Rate, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Kaydet</button>
+</form>
+

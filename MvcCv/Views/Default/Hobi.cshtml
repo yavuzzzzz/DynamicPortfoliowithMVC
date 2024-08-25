@@ -1,0 +1,13 @@
+﻿@using MvcCv.Models.Entity
+@model List<TblHobbies>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">HOBİLERİM</h2>
+    @foreach (var x in Model)
+    {
+        <p>@x.Description1</p>
+        <p>@x.Description2</p>
+    }
+
+
+</div>
